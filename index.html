@@ -1,0 +1,1927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>More Nutrition - Matcha meets Protein</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+  <!-- Fonts: Founders Grotesk Condensed from the original site -->
+  <style>
+    @font-face {
+      font-family: 'Founders Grotesk Condensed';
+      src: url('https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d3d0e39bb63e57bbfe4ab1_founders-grotesk-condensed-regular.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Founders Grotesk Condensed';
+      src: url('https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d3d0db2c756c9c896e272d_founders-grotesk-condensed-medium.woff2') format('woff2');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Founders Grotesk Condensed';
+      src: url('https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d3d0e9b73b1390605d01fb_founders-grotesk-condensed-semibold.woff2') format('woff2');
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+    }
+  </style>
+
+  <link rel="stylesheet" href="styles.css"/>
+  <!-- Lottie Player for the logo animation -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <!-- GSAP + plugins for animations (same as original) -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+</head>
+<body class="body">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="grid-layout">
+        <!-- Social media links (left) -->
+        <div class="nav-social-media-inner">
+          <a href="https://www.instagram.com/morenutrition.de/" target="_blank" class="social-media-link">
+            <div class="social-media-circle">
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651ae6f6e0e5669c9d465_instagram.svg" loading="eager" width="24" height="24" alt="Instagram" class="social-media-icon"/>
+            </div>
+          </a>
+          <a href="https://www.tiktok.com/@morenutrition.de?lang=de-DE" target="_blank" class="social-media-link">
+            <div class="social-media-circle">
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651aeea8f52f9e4d418f2_tiktok.svg" loading="eager" width="24" height="24" alt="TikTok" class="social-media-icon"/>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/@more_nutrition" target="_blank" class="social-media-link">
+            <div class="social-media-circle">
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com.svg" loading="eager" width="24" height="24" alt="YouTube" class="social-media-icon"/>
+            </div>
+          </a>
+        </div>
+
+        <!-- Nav links (center) -->
+        <div class="nav-link-inner">
+          <a href="#nutrition" class="nav-link">
+            <div class="nav-text">Nutrition</div>
+          </a>
+          <a href="#benefits" class="nav-link">
+            <div class="nav-text">Benefits</div>
+          </a>
+          <a href="#reviews" class="nav-link">
+            <div class="nav-text">Reviews</div>
+          </a>
+        </div>
+
+        <!-- Shop all button (right) -->
+        <a href="https://morenutrition.co.uk/products/more-protein-iced-matcha-latte" target="_blank" class="button is-white nav-button">
+          <div class="button-cycle is-first">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow">
+              <path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path>
+            </svg>
+            <div class="button-cycle-bg white-bg"></div>
+          </div>
+          <div class="button-bg white-bg">
+            <div class="button-text dark-font">Shop all</div>
+          </div>
+          <div class="button-cycle is-second">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow">
+              <path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path>
+            </svg>
+            <div class="button-cycle-bg white-bg"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero / Stage Section -->
+  <section data-inertia class="stage">
+    <div class="stage-overlay"></div>
+    <div class="stage-container">
+      <div class="stage-inner">
+        <div class="stage-content">
+          <!-- Logo Text -->
+          <div class="stage-logo">
+            <div class="stage-logo-text">阿祖AI出海</div>
+          </div>
+
+          <!-- Buy Now CTA -->
+          <div class="stage-cta">
+            <a href="https://morenutrition.co.uk/products/more-protein-iced-matcha-latte" target="_blank" class="button">
+              <div class="button-cycle is-first">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow">
+                  <path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path>
+                </svg>
+                <div class="button-cycle-bg"></div>
+              </div>
+              <div class="button-bg">
+                <div class="button-text">Buy now</div>
+              </div>
+              <div class="button-cycle is-second">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow">
+                  <path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path>
+                </svg>
+                <div class="button-cycle-bg"></div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Stage Wrap: Left (product + stats) + Right (text) -->
+          <div class="stage-wrap">
+            <!-- Left side: product visual + facts -->
+            <div class="stage-left">
+              <!-- Decorative handwritten text -->
+              <div class="stage-deco">
+                <div class="stage-deco-text-wrap" style="--animation-delay: .05s;">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real%20Matcha%2C%20Origin%20al%20Taste.svg" loading="lazy" width="300" height="112" alt="Real Matcha, Original Taste" class="stage-deco-text"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d41a7021c95a7f4ce8cd14_4bb0c9727f3cc3cf72d4fe155fa50163_Real%20Matcha%2C%20Origin%20al%20Taste.svg" loading="eager" width="300" height="112" alt="Real Matcha, Original Taste" class="stage-deco-text is-wiggle"/>
+                </div>
+                <div class="stage-deco-arrow-wrap" style="--animation-delay: .15s;">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68a9a089d73e5cf84d4ded67_stage-sketch-arrow.svg" loading="eager" width="150" height="150" alt="stage-sketch-arrow" class="stage-deco-arrow"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68a9a089d73e5cf84d4ded67_stage-sketch-arrow.svg" loading="eager" width="150" height="150" alt="stage-sketch-arrow" class="stage-deco-arrow is-wiggle"/>
+                </div>
+              </div>
+
+              <!-- Product canvas (sequence animation like original) -->
+              <div class="stage-visual">
+                <canvas data-load-stage-canvas-img-path="https://morematcha.vercel.app/img/" data-load-stage-canvas class="stage-canvas"></canvas>
+              </div>
+
+              <!-- Fact circles -->
+              <div class="stage-facts">
+                <div data-inertia-item class="stage-fact-outer">
+                  <div data-inertia-item-child class="stage-fact is-first">
+                    <div class="stage-fact-wrap">
+                      <div class="stage-fact-number">20</div>
+                      <div class="stage-fact-unit">g</div>
+                    </div>
+                    <div class="stage-fact-text">of Protein</div>
+                  </div>
+                </div>
+                <div data-inertia-item class="stage-fact-outer">
+                  <div data-inertia-item-child class="stage-fact is-second">
+                    <div class="stage-fact-wrap">
+                      <div class="stage-fact-number">95</div>
+                      <div class="stage-fact-unit">%</div>
+                    </div>
+                    <div class="stage-fact-text">less Sugar</div>
+                  </div>
+                </div>
+                <div data-inertia-item class="stage-fact-outer">
+                  <div data-inertia-item-child class="stage-fact is-third">
+                    <div class="stage-fact-wrap">
+                      <div class="stage-fact-number">85</div>
+                      <div class="stage-fact-unit">mg</div>
+                    </div>
+                    <div class="stage-fact-text">of Caffeine</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Ellipse background -->
+              <div class="stage-bg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 731 818" fill="none" class="stage-bg-svg">
+                  <path d="M542.941 42.7702C707.951 122.986 766.918 351.375 667.592 555.698C568.265 760.021 352.233 854.727 187.223 774.512C22.2122 694.296 -36.7556 465.905 62.5711 261.582C161.898 57.2593 377.93 -37.4456 542.941 42.7702Z" stroke="currentColor" stroke-width="28"></path>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Right side: text content -->
+            <div class="stage-right">
+              <div class="stage-text-wrap">
+                <h1 class="hero-heading">
+                  <span class="white-span">Matcha</span><br/>meets<br/>Protein
+                </h1>
+                <div class="stage-paragraph-wrap">
+                  <p class="paragraph is-stage-paragraph">Our More Protein Iced Matcha Latte blends matcha with protein and glucomannan, a natural fiber that supports weight loss.</p>
+                  <div class="stage-subline-wrap" style="--animation-delay: .2s;">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688655fd2fed5f707c038914_Layer_1%20(3).svg" loading="eager" width="152" height="42" alt="Underline" class="subline-img"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688655fd2fed5f707c038914_Layer_1%20(3).svg" loading="eager" width="152" height="42" alt="Underline" class="subline-img is-wiggle"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marquee at bottom of hero -->
+    <div data-marquee class="marquee">
+      <div class="marquee-inner">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1440 442" width="100%" style="overflow: visible;" class="marquee-bg-svg">
+          <path stroke="currentColor" stroke-width="160" d="M-71 371.6C126.3 260 593.5 65.8 934.5 80.8c313 13.8 497 136 572 200"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1440 293" width="100%" style="overflow: visible;" data-marquee-svg class="marquee-text-svg">
+          <path d="M-68 300C173 173 515.5 1 937.2 1 1254.5 1 1468 183.3 1543 246.9" id="curve"></path>
+          <text width="100%" style="transform:translate3d(0,0,0);">
+            <textPath style="transform:translate3d(0,0,0);" alignment-baseline="top" href="#curve" startOffset="-30%">It´s a Match(a) · It´s a Match(a) · It´s a Match(a)</textPath>
+          </text>
+        </svg>
+        <div class="marquee-overlay"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Insider Section -->
+  <div data-inertia class="insider-section">
+    <div class="insider-container">
+      <div class="grid-layout">
+        <!-- Heading: spans full 12 cols, centered -->
+        <h2 class="insider-heading">You deserve the best.<br/>You deserve More:<br/><span class="light-green-span">Iced Matcha Latte.</span></h2>
+
+        <!-- Content wrapper: 12 cols grid with testimonials left + text right -->
+        <div class="insider-wrapper">
+          <!-- Testimonial video cards (left 7 cols) -->
+          <div data-testimonial-parallax class="testimonial-wrapper">
+            <div data-inertia-item class="testimonial-inner-wrap is-first">
+              <div data-inertia-item-child data-testimonial-parallax-item class="testimonial-inner _1">
+                <div class="testimonial-media">
+                  <video playsinline loop muted disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" preload="metadata" data-video>
+                    <source src="https://www.dl.dropboxusercontent.com/scl/fi/sn5g0ke38hntd7qchzhn3/SnapInsta.to_AQO-6-wc7kGZhVWDEZdicSozaqoIGuwQNnyqUly6BQNAyHcK97qvkSA6nEpLa8FL7KCmUoUDdz_a4LW2v49v8UhQxv0XijkRGobU6Io.mp4?rlkey=tip5d5fx1nr0sbeegogs83i3a&st=xphiyn1m&dl=0"/>
+                  </video>
+                </div>
+                <button type="button" data-video-button aria-label="Sound on/off" class="testimonial-sound-btn is-top">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-first"><path fill="currentColor" d="M10.5 2v12a.5.5 0 0 1-.807.394L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.828l4.365-3.394A.5.5 0 0 1 10.5 2Zm2 4a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0v-3a.5.5 0 0 0-.5-.5Zm2-1a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 1 0v-5a.5.5 0 0 0-.5-.5Z"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-second"><path fill="currentColor" d="M13.87 13.164a.5.5 0 1 1-.74.672l-2.63-2.893v3.038a.518.518 0 0 1-.244.448.5.5 0 0 1-.563-.035L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.597L3.13 2.836a.5.5 0 0 1 .74-.672l10 11ZM12.533 10A.51.51 0 0 0 13 9.484V6.517A.51.51 0 0 0 12.533 6a.5.5 0 0 0-.533.5v3a.499.499 0 0 0 .533.5Zm-2.47-2.508a.25.25 0 0 0 .437-.169V2.015a.515.515 0 0 0-.18-.4.5.5 0 0 0-.625-.01L6.989 3.709a.25.25 0 0 0-.03.366l3.104 3.418ZM14.466 5a.51.51 0 0 0-.467.517v4.966a.51.51 0 0 0 .467.516.498.498 0 0 0 .533-.5V5.5a.499.499 0 0 0-.533-.5Z"></path></svg>
+                </button>
+              </div>
+            </div>
+            <div data-inertia-item class="testimonial-inner-wrap is-second">
+              <div data-inertia-item-child data-testimonial-parallax-item class="testimonial-inner _2">
+                <div class="testimonial-media">
+                  <video playsinline loop muted disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" preload="metadata" data-video>
+                    <source src="https://www.dl.dropboxusercontent.com/scl/fi/vzjyqfr7i098s1e4f35fx/SnapInsta.to_AQN4zwHLLGQzUTUU7rkiWCayhvMlcD579UzW7eIdHgcwvbEXgqqX8JMZkSiqALpLD_bigNDJwwg7Geal33Ocpjl7VEbT4P2VvF-qIzo.mp4?rlkey=13n2hsdztyjfay5542poch07u&st=di2y9e7y&dl=0"/>
+                  </video>
+                </div>
+                <button type="button" data-video-button aria-label="Sound on/off" class="testimonial-sound-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-first"><path fill="currentColor" d="M10.5 2v12a.5.5 0 0 1-.807.394L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.828l4.365-3.394A.5.5 0 0 1 10.5 2Zm2 4a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0v-3a.5.5 0 0 0-.5-.5Zm2-1a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 1 0v-5a.5.5 0 0 0-.5-.5Z"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-second"><path fill="currentColor" d="M13.87 13.164a.5.5 0 1 1-.74.672l-2.63-2.893v3.038a.518.518 0 0 1-.244.448.5.5 0 0 1-.563-.035L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.597L3.13 2.836a.5.5 0 0 1 .74-.672l10 11ZM12.533 10A.51.51 0 0 0 13 9.484V6.517A.51.51 0 0 0 12.533 6a.5.5 0 0 0-.533.5v3a.499.499 0 0 0 .533.5Zm-2.47-2.508a.25.25 0 0 0 .437-.169V2.015a.515.515 0 0 0-.18-.4.5.5 0 0 0-.625-.01L6.989 3.709a.25.25 0 0 0-.03.366l3.104 3.418ZM14.466 5a.51.51 0 0 0-.467.517v4.966a.51.51 0 0 0 .467.516.498.498 0 0 0 .533-.5V5.5a.499.499 0 0 0-.533-.5Z"></path></svg>
+                </button>
+              </div>
+            </div>
+            <div data-inertia-item class="testimonial-inner-wrap is-third">
+              <div data-inertia-item-child data-testimonial-parallax-item class="testimonial-inner _3">
+                <div class="testimonial-media">
+                  <video playsinline loop muted disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" preload="metadata" data-video>
+                    <source src="https://www.dl.dropboxusercontent.com/scl/fi/ccn1egi3ikhsytqhbfwsf/SnapInsta.to_AQMqh_lTfkPamg2Oj4zR5IUuybxe2H0drgz6Q3qUpgoxPo_ITsqHGGRXaA0tU8cn22XVNo6eJ6_jLGfS0eVkEWLwpgjarC1GYIj9qMI.mp4?rlkey=o6zx1vqe0g584o8pwb12e8ju3&st=yfiuwnbo&dl=0"/>
+                  </video>
+                </div>
+                <button type="button" data-video-button aria-label="Sound on/off" class="testimonial-sound-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-first"><path fill="currentColor" d="M10.5 2v12a.5.5 0 0 1-.807.394L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.828l4.365-3.394A.5.5 0 0 1 10.5 2Zm2 4a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0v-3a.5.5 0 0 0-.5-.5Zm2-1a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 1 0v-5a.5.5 0 0 0-.5-.5Z"></path></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" class="testimonial-sound-button-icon is-second"><path fill="currentColor" d="M13.87 13.164a.5.5 0 1 1-.74.672l-2.63-2.893v3.038a.518.518 0 0 1-.244.448.5.5 0 0 1-.563-.035L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.597L3.13 2.836a.5.5 0 0 1 .74-.672l10 11ZM12.533 10A.51.51 0 0 0 13 9.484V6.517A.51.51 0 0 0 12.533 6a.5.5 0 0 0-.533.5v3a.499.499 0 0 0 .533.5Zm-2.47-2.508a.25.25 0 0 0 .437-.169V2.015a.515.515 0 0 0-.18-.4.5.5 0 0 0-.625-.01L6.989 3.709a.25.25 0 0 0-.03.366l3.104 3.418ZM14.466 5a.51.51 0 0 0-.467.517v4.966a.51.51 0 0 0 .467.516.498.498 0 0 0 .533-.5V5.5a.499.499 0 0 0-.533-.5Z"></path></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Text content (right 5 cols) -->
+          <div class="insider-text-inner">
+            <h3 class="insider-subheading">We want to make healthy, science-backed nutrition simple and accessible - so you can feel better, perform better, and enjoy life every single day.</h3>
+            <p class="paragraph">Loved by thousands of community members, this creation contains real green tea powder, premium protein, and glucomannan. Irresistibly delicious. Heavenly creamy.</p>
+            <div class="insider-cta">
+              <a href="https://morenutrition.co.uk/products/more-protein-iced-matcha-latte" target="_blank" class="button">
+                <div class="button-cycle is-first">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg>
+                  <div class="button-cycle-bg"></div>
+                </div>
+                <div class="button-bg"><div class="button-text">Buy now</div></div>
+                <div class="button-cycle is-second">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg>
+                  <div class="button-cycle-bg"></div>
+                </div>
+              </a>
+              <div class="rating-inner">
+                <a href="https://morenutrition.co.uk/products/more-protein-iced-matcha-latte" target="_blank" class="rating-link">
+                  <div class="rating-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a6c618dbc4bb25c48_icon-star.svg" loading="lazy" width="20" height="20" alt="star" class="rating-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a6c618dbc4bb25c48_icon-star.svg" loading="lazy" width="20" height="20" alt="star" class="rating-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a6c618dbc4bb25c48_icon-star.svg" loading="lazy" width="20" height="20" alt="star" class="rating-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a6c618dbc4bb25c48_icon-star.svg" loading="lazy" width="20" height="20" alt="star" class="rating-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68ae178a30a512b269607fbe_icon-star-half.svg" loading="lazy" width="20" height="20" alt="star-half" class="rating-star"/>
+                  </div>
+                  <div class="rating-text-wrap"><div class="rating-text">3158 Reviews</div></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sequence Section (Why people love it) -->
+  <div id="nutrition" data-sequence class="sequence-section">
+    <!-- Handwritten "Why people love it" -->
+    <div class="sequence-signature">
+      <div class="sequence-signature-text">
+        <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bf0b05111fd229e95c_sequence-why-people-love-it.svg" loading="lazy" width="300" height="104" alt="Why people love it" class="sequence-signature-text-img"/>
+        <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bf0b05111fd229e95c_sequence-why-people-love-it.svg" loading="lazy" width="300" height="104" alt="Why people love it" class="sequence-signature-text-img is-wiggle"/>
+      </div>
+      <div class="sequence-signature-arrow">
+        <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bfdc8daf0458376a72_sequence-why-people-arrow.svg" loading="lazy" width="150" height="150" alt="arrow" class="sequence-signature-arrow-img"/>
+        <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9b2bfdc8daf0458376a72_sequence-why-people-arrow.svg" loading="lazy" width="150" height="150" alt="arrow" class="sequence-signature-arrow-img is-wiggle"/>
+      </div>
+    </div>
+
+    <div data-sequence-trigger class="sequence-scroll-wrap">
+      <div data-sequence-stage class="sequence-sticky">
+        <!-- Canvas for product 200-frame sequence -->
+        <canvas data-sequence-canvas-img-path="https://morematcha.vercel.app/img/" data-sequence-canvas class="sequence-canvas"></canvas>
+
+        <!-- Feature cards -->
+        <div class="sequence-cards">
+          <!-- Card 1: More Taste -->
+          <div data-sequence-card class="statement-card is-first">
+            <div class="statement-card-wrapper">
+              <div data-sequence-smiley class="top-smiley is-card">
+                <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg" loading="lazy" alt="Smiley"/>
+              </div>
+              <h2 class="statement-heading">More<br/> Taste</h2>
+              <div class="statement-card-paragraph-wrap">
+                <div class="first-statement-icon">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bbc7e54e7ae27ef30fe2a_Layer_1%20(7).svg" loading="lazy" alt="Circle" class="first-statement-icon-img"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bbc7e54e7ae27ef30fe2a_Layer_1%20(7).svg" loading="lazy" alt="Circle" class="first-statement-icon-img is-wiggle"/>
+                </div>
+                <p class="paragraph center-align">Finest matcha. Smooth &amp; creamy.<br/>20g of pure protein per serving, for your <br/>ultimate green power drink.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: More Caffeine -->
+          <div data-sequence-card-left data-sequence-card class="statement-card is-second">
+            <div class="statement-card-wrapper left">
+              <div data-sequence-smiley-left data-sequence-smiley class="top-smiley is-card">
+                <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg" loading="lazy" alt="Smiley"/>
+              </div>
+              <h2 class="statement-heading">More Caffeine</h2>
+              <div class="statement-card-paragraph-wrap">
+                <div class="second-icon">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4dc54e2bba0f8a77b238_Layer_1%20(9).svg" loading="lazy" alt="Thunder" class="second-icon-img"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4dc54e2bba0f8a77b238_Layer_1%20(9).svg" loading="lazy" alt="Thunder" class="second-icon-img is-wiggle"/>
+                </div>
+                <p class="paragraph center-align">85mg of caffeine per serving, <br/>equal to a cappuccino. <br/>Your daily energy boost.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: More weight loss -->
+          <div data-sequence-card class="statement-card is-third">
+            <div class="statement-card-wrapper">
+              <div data-sequence-smiley class="top-smiley is-card">
+                <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg" loading="lazy" alt="Smiley"/>
+              </div>
+              <h2 class="statement-heading">More weight loss</h2>
+              <div class="statement-card-paragraph-wrap">
+                <div class="third-statement-icon">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4ee13616a5bb6e89d831_Vector%20(6).svg" loading="lazy" alt="Arrow" class="third-statement-icon-img"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4ee13616a5bb6e89d831_Vector%20(6).svg" loading="lazy" alt="Arrow" class="third-statement-icon-img is-wiggle"/>
+                </div>
+                <p class="paragraph center-align">With glucomannan - clinically proven to <br/>support weight loss, ideal for your conscious<br/>lifestyle.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: No added sugar -->
+          <div data-sequence-card-left data-sequence-card class="statement-card is-fourth">
+            <div class="statement-card-wrapper left">
+              <div data-sequence-smiley-left data-sequence-smiley class="top-smiley is-card">
+                <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg" loading="lazy" alt="Smiley"/>
+              </div>
+              <h2 class="statement-heading">No added sugar</h2>
+              <div class="statement-card-paragraph-wrap">
+                <div class="fourth-statement-icon">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4f47af9547f0f5223089_Vector%20(7).svg" loading="lazy" alt="Cross" class="fourth-statement-icon-img"/>
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689c4f47af9547f0f5223089_Vector%20(7).svg" loading="lazy" alt="Cross" class="fourth-statement-icon-img is-wiggle"/>
+                </div>
+                <p class="paragraph center-align">No added sugar - only naturally occurring, <br/>with 95% less sugar than traditional instant<br/>matcha lattes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Final screen: "What's your flavour?" -->
+        <div class="sequence-final">
+          <h2 data-sequence-title class="sequence-title">Matcha, just the<br/>way you like it.<br/><span data-sequence-title-split class="light-green-span">What's your flavour?</span></h2>
+          <div style="--animation-delay: .05s;" data-sequence-final-signature class="sequence-final-signature">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble.svg" loading="lazy" width="285" height="150" alt="Vanilla Crumble" class="sequence-final-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4a56d6965dfedaaf9bbb_sequence-vanilla-crumble.svg" loading="lazy" width="285" height="150" alt="Vanilla Crumble" class="sequence-final-signature-img is-wiggle"/>
+          </div>
+          <div data-sequence-final-signature class="sequence-final-signature is-first-arrow">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow.svg" loading="lazy" width="300" height="92" alt="arrow" class="sequence-final-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4d0addb7dabb6793ee05_sequence-vanilla-crumble-arrow.svg" loading="lazy" width="300" height="92" alt="arrow" class="sequence-final-signature-img is-wiggle"/>
+          </div>
+          <div style="--animation-delay: .075s;" data-sequence-final-signature class="sequence-final-signature is-second">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake.svg" loading="lazy" width="300" height="125" alt="Strawberry Cheesecake" class="sequence-final-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb4ef605d3c803020c0a8c_sequence-strawberry-cheesecake.svg" loading="lazy" width="300" height="125" alt="Strawberry Cheesecake" class="sequence-final-signature-img is-wiggle"/>
+          </div>
+          <div style="--animation-delay: .025s;" data-sequence-final-signature class="sequence-final-signature is-second-arrow">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow.svg" loading="lazy" width="153" height="150" alt="arrow" class="sequence-final-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb51400be6f0687f9cb522_sequence-strawberry-cheesecake-arrow.svg" loading="lazy" width="153" height="150" alt="arrow" class="sequence-final-signature-img is-wiggle"/>
+          </div>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb559a04860444181393aa_sequence-cookie.webp" loading="lazy" width="340" height="344" alt="cookie" data-sequence-cookie-first class="sequence-final-cookie"/>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb559a04860444181393aa_sequence-cookie.webp" loading="lazy" width="340" height="344" alt="cookie" data-sequence-cookie-second class="sequence-final-cookie is-second"/>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb559a1333de45c53ee927_sequence-strawberry.webp" loading="lazy" width="594" height="594" alt="strawberry" data-sequence-strawberry-first class="sequence-final-strawberry"/>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68bb559a1333de45c53ee927_sequence-strawberry.webp" loading="lazy" width="594" height="594" alt="strawberry" data-sequence-strawberry-second class="sequence-final-strawberry is-second"/>
+        </div>
+
+        <!-- SVG decorative lines -->
+        <div class="sequence-lines">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1440 691" fill="none" data-sequence-svg style="overflow: visible" class="sequence-line-svg is-first"><path d="M-11 627.781C31.2318 652.606 151.814 698.642 199.05 645.884C264.5 572.781 199.05 472.107 47.547 363.054C-103.956 254 -52.529 150.083 24.5115 108.595C210.583 8.39218 434.763 502.251 720.049 329.362C981.436 170.957 1134 -69.7188 1490 2.78121" stroke="currentColor" stroke-width="40"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1440 682" fill="none" data-sequence-svg style="overflow: visible" class="sequence-line-svg is-second"><path d="M1442.05 19.9995C1346.05 34.4995 1170.99 110.452 1098.05 191.999C975.047 329.499 1257.15 515.709 1159 626.498C1027 775.498 571.87 408.445 484.498 347.293C244.047 178.999 15 -12.5016 -102 87.9984" stroke="currentColor" stroke-width="40"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1440 750" fill="none" data-sequence-svg style="overflow: visible" class="sequence-line-svg is-third"><path d="M-918.224 5.00043C-948.225 142 -730.728 264 -473.726 252.501C-271.374 243.446 29.7721 170.716 170.275 135.501C1143.77 -108.499 460.741 462.659 570.773 634.5C651.773 761 1056.77 396 1392.27 396C1513.27 396 1835.87 454.857 2022.77 607.501C2178.27 734.5 2312.44 743.001 2363.77 718.001" stroke="currentColor" stroke-width="40"></path></svg>
+          <div data-sequence-signature class="sequence-inner-signature">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers.svg" loading="lazy" width="300" height="132" alt="More for coffee lovers" class="sequence-inner-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b9fcc383366c0bb0fe9ca6_sequence-more-for-coffee-lovers.svg" loading="lazy" width="300" height="132" alt="More for coffee lovers" class="sequence-inner-signature-img is-wiggle"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Benefits Section -->
+  <div id="benefits" class="benefit-section">
+    <div data-smiley class="top-smiley is-benefit">
+      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689534f1390e42ee1492e9df_Group%2042.svg" loading="lazy" alt="Smiley"/>
+    </div>
+    <div class="container smaller">
+      <div class="grid-layout">
+        <!-- Left: Product images -->
+        <div class="img-wrapper">
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953da4d0d5f048beedcb6e_4d640528cda9b637c74a05194f165bad1f5131c0.webp" loading="lazy" alt="Iced Matcha Latte" class="top-img"/>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 575 559" width="100%" data-fill-line class="benefit-svg"><path stroke="currentColor" stroke-width="27" d="M-56.447 495.508C-26.61 513.052 53.628 569.352 87 532.069c46.24-51.66 4.952-146.571-102.084-223.636-107.035-77.065-70.703-150.5-16.274-179.818C100.1 57.804 196.947 412.744 398.5 290.569 583.168 178.628 665-36.931 945 24.953"></path></svg>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953755a9a7a338f1c66af8_2bc96c5443dd740a3309d483ae39d3da60cc7e2c.webp" loading="lazy" alt="Matcha Powder" class="img"/>
+        </div>
+
+        <!-- Right: Heading + Comparison table -->
+        <div class="benefit-wrapper">
+          <h2 class="benefit-heading"><span data-highlight-text class="light-green-span">More for you.</span><br/>See the difference.</h2>
+
+          <div data-benefit-table class="benefit-table">
+            <!-- Table header -->
+            <div class="benefit-table-title-wrapper">
+              <div class="benefit-table-title">Benefits</div>
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/687ea845b6162b993ddd0020_Group%201%20(1).svg" loading="lazy" alt="More Nutrition Logo" class="benefit-table-title-img"/>
+              <div class="benefit-table-title">Regular Matcha</div>
+            </div>
+            <div data-benefit-table-line class="sub-line"></div>
+
+            <!-- Table rows -->
+            <div class="benefit-item-wrapper">
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Low in carbs</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Low in sugar</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">High in protein</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Supports weight loss</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Supports muscle growth</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Contains dietary fiber</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+              <div data-benefit-table-line class="line"></div>
+
+              <div class="benefit-table-item">
+                <div class="benefit-item-title">Perfect for WPF (Wolfs Protein Fasting)</div>
+                <div class="benefit-checker-inner">
+                  <div class="benefit-item-check"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953a1b9a0c9299ece16c1e_check.svg" loading="lazy" data-benefit-table-check alt="Check" class="check"/></div>
+                  <div class="benefit-item-x"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68953b9f3d54aaa40b14e92f_x.svg" loading="lazy" alt="X" class="check"/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial / Reviews Section -->
+  <div id="reviews" class="testimonial-section">
+    <div data-testimonial-parallax class="bg-img-wrapper">
+      <img class="testimonial-top-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd.webp" width="2048" alt="Iced Matcha Latte" sizes="100vw" data-testimonial-parallax-img loading="lazy" srcset="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-500.webp 500w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-800.webp 800w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-1080.webp 1080w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd-p-1600.webp 1600w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541efc32332b4d96332e4_5aa593a5c181883619e1ec2e48b9a77009ae6ddd.webp 4096w"/>
+      <img class="bg-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649.webp" width="2048" alt="Iced Matcha Latte" sizes="100vw" data-testimonial-parallax-img loading="lazy" srcset="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-500.webp 500w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-800.webp 800w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-1080.webp 1080w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649-p-1600.webp 1600w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689541d1c4bb0b452cb46e3e_b525d1f05540193d88caa60b825b8887a650d649.webp 4096w"/>
+    </div>
+    <div class="testimonial-container">
+      <div class="grid-layout">
+        <div class="big-title-wrapper">
+          <div class="testimonial-signature">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2e8120f5b95bfbd87aebf_testimonial-signature.svg" loading="lazy" width="300" height="27" alt="Premium Matcha Taste" class="testimonial-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2e8120f5b95bfbd87aebf_testimonial-signature.svg" loading="lazy" width="300" height="27" alt="Premium Matcha Taste" class="testimonial-signature-img is-wiggle"/>
+          </div>
+          <h2 class="testimonial-big-heading">Clean. Green. <br/>Goodness.</h2>
+        </div>
+        <div class="testimonial-slider">
+          <h3 class="testimonial-heading">don't take our <br/>word for it</h3>
+          <div data-testimonial-inview class="testimonial-slider-wrapper">
+            <div data-slider-interface class="testimonial-slider-interface">
+              <div data-slider-arrows class="testimonial-slider-button-wrapper">
+                <button type="button" data-slider-left-button class="testimonial-slider-button is-left">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0fba88460ab65187e9_icon-arrow-left.svg" loading="lazy" width="20" height="20" alt="Left" class="testimonial-slider-button-arrow"/>
+                </button>
+                <button type="button" data-slider-right-button class="testimonial-slider-button is-right">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0f2245f238d5eb3226_icon-arrow-right.svg" loading="lazy" width="20" height="20" alt="Right" class="testimonial-slider-button-arrow"/>
+                </button>
+              </div>
+            </div>
+            <div data-slider class="testimonial-slider-inner">
+              <!-- Review 1 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">Best matcha ever!</h3>
+                    <p class="testimonial-item-text">I already have it and they bought it straight away too.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Daniela A.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review 2 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">Super delicious!</h3>
+                    <p class="testimonial-item-text">Super delicious with ice cubes, water and oat-almond milk.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Tina H.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review 3 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">Risk of addiction</h3>
+                    <p class="testimonial-item-text">The Iced Matcha Latte is so delicious, with a truly creamy consistency.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Sandra D.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review 4 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">The best Matcha.</h3>
+                    <p class="testimonial-item-text">This matcha has a sweet and tangy raspberry flavor. Perfect for breakfast or lunch.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Sandra W.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review 5 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">Highly recommended!</h3>
+                    <p class="testimonial-item-text">Very tasty, dissolves perfectly. No clumps and a proper matcha flavor.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Carolin S.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Review 6 -->
+              <div class="testimonial-slider-item-wrap">
+                <div data-slider-item-inner class="testimonial-slider-item">
+                  <div class="testimonial-star-wrap">
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                    <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2bdb3390600fa418ac907_icon-testimonial-star.svg" loading="lazy" width="20" height="20" alt="star" class="testimonial-star"/>
+                  </div>
+                  <div class="testimonial-item-inner-text">
+                    <h3 class="testimonial-item-heading">Favorite!!!</h3>
+                    <p class="testimonial-item-text">My favorite variety. Depending on my mood, I just add the matching Chunky flavor and enjoy.</p>
+                  </div>
+                  <div class="testimonial-line"></div>
+                  <div class="testimonial-item-bottom">
+                    <div class="testimonial-client-name">Farah M.</div>
+                    <div class="testimonial-verified-wrap">
+                      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2c1be2762f3ffc1be06c5_icon-bubble-check.svg" loading="lazy" width="20" height="20" alt="Verified" class="testimonial-verified-icon"/>
+                      <div class="testimonial-verified-text">Verified</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Flavour Section -->
+  <section data-inertia class="flavour">
+    <div class="flavour-container">
+      <div class="flavour-header">
+        <div class="flavour-heading-wrap">
+          <h2 class="flavour-title">Chunky Flavour</h2>
+          <h3 data-highlight-text class="flavour-subline">New Taste, Low Sugar</h3>
+        </div>
+        <p class="flavour-paragraph">Simply stir in 3 g of Chunky Flavour with your 300g Matcha Latte to create a sweeter flavour sensation!</p>
+      </div>
+      <div data-flavour-content class="flavour-content">
+        <!-- Left: Base product -->
+        <div class="flavour-left">
+          <div class="flavour-signature-wrap">
+            <div class="flavour-signature">
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823c24b2c7988de3d7a_slider-signature.svg" loading="lazy" width="300" height="90" alt="More Flavour Combinations" class="flavour-signature-img"/>
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823c24b2c7988de3d7a_slider-signature.svg" loading="lazy" width="300" height="90" alt="More Flavour Combinations" class="flavour-signature-img is-wiggle"/>
+            </div>
+            <div style="--animation-delay: .15s;" class="flavour-signature-arrow">
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823659937fb4ddc9834_slider-signature-arrow.svg" loading="lazy" width="147" height="150" alt="arrow" class="flavour-signature-arrow-img"/>
+              <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c94823659937fb4ddc9834_slider-signature-arrow.svg" loading="lazy" width="147" height="150" alt="arrow" class="flavour-signature-arrow-img is-wiggle"/>
+            </div>
+          </div>
+          <div data-inertia-item class="flavour-left-dose">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c93e5ef45e668c761efd15_slider-base-product-visual.webp" loading="lazy" width="481" height="1002" alt="Matcha Latte" data-inertia-item-child class="flavour-left-dose-img"/>
+          </div>
+          <div data-inertia-item class="flavour-left-pack is-first">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c93e5ef2ba34cbfb878f82_slider-base-product-pack.webp" loading="lazy" width="447" height="699" alt="Matcha pack" data-inertia-item-child class="flavour-left-pack-img"/>
+          </div>
+          <div data-inertia-item class="flavour-left-pack is-second">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c93e5ef2ba34cbfb878f82_slider-base-product-pack.webp" loading="lazy" width="447" height="699" alt="Matcha pack" data-inertia-item-child class="flavour-left-pack-img"/>
+          </div>
+        </div>
+        <!-- Plus sign -->
+        <div class="flavour-plus">
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c948227a747d8be568507e_slider-plus.svg" loading="lazy" width="146" height="150" alt="+" class="flavour-plus-img"/>
+        </div>
+        <!-- Right: Chunky Flavour product slider -->
+        <div class="flavour-right">
+          <div data-flavour-slider class="flavour-swiper">
+            <div class="flavour-swiper-wrapper">
+              <!-- Slide 1: Strawberry -->
+              <div class="flavour-slide" data-flavour-slide>
+                <div class="flavour-slide-inner">
+                  <div data-inertia-item class="flavour-slide-dose">
+                    <img class="flavour-slide-dose-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c958d0422452a42640ce1a_slider-flavour-strawberry-dose.webp" width="723" height="615" alt="Strawberry dose" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-first">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c958d08fd58d9f97c0a559_slider-flavour-strawberry-pack.webp" width="653" height="478" alt="Strawberry pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-second">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c958d08fd58d9f97c0a559_slider-flavour-strawberry-pack.webp" width="653" height="478" alt="Strawberry pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 2: Fudge Brownie -->
+              <div class="flavour-slide" data-flavour-slide>
+                <div class="flavour-slide-inner">
+                  <div data-inertia-item class="flavour-slide-dose">
+                    <img class="flavour-slide-dose-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd8833449d96f96a8b2f_slider-flavour-fudge-brownie-dose.webp" width="723" height="615" alt="Fudge Brownie dose" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-first">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd899ab270ca74992378_slider-flavour-fudge-brownie-pack.webp" width="653" height="478" alt="Fudge Brownie pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-second">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd899ab270ca74992378_slider-flavour-fudge-brownie-pack.webp" width="653" height="478" alt="Fudge Brownie pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 3: Vanilla Choc Chip -->
+              <div class="flavour-slide" data-flavour-slide>
+                <div class="flavour-slide-inner">
+                  <div data-inertia-item class="flavour-slide-dose">
+                    <img class="flavour-slide-dose-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd89c0ba63f9f1a0474f_slider-flavour-vanilla-choc-chip-dose.webp" width="723" height="615" alt="Vanilla Choc Chip dose" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-first">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd8966162a74314fbec6_slider-flavour-vanilla-choc-chip-pack.webp" width="653" height="478" alt="Vanilla Choc Chip pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-second">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd8966162a74314fbec6_slider-flavour-vanilla-choc-chip-pack.webp" width="653" height="478" alt="Vanilla Choc Chip pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 4: Salted Caramel -->
+              <div class="flavour-slide" data-flavour-slide>
+                <div class="flavour-slide-inner">
+                  <div data-inertia-item class="flavour-slide-dose">
+                    <img class="flavour-slide-dose-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9be3296b7aa51aad8dd5d_slider-flavour-salted-caramel-dose.webp" width="723" height="615" alt="Salted Caramel dose" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-first">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd886d19ccf79464c844_slider-flavour-salted-caramel-pack.webp" width="653" height="478" alt="Salted Caramel pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-second">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd886d19ccf79464c844_slider-flavour-salted-caramel-pack.webp" width="653" height="478" alt="Salted Caramel pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide 5: Vanilla Perfection -->
+              <div class="flavour-slide" data-flavour-slide>
+                <div class="flavour-slide-inner">
+                  <div data-inertia-item class="flavour-slide-dose">
+                    <img class="flavour-slide-dose-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd88dfdd73be537ddc99_slider-flavour-vanilla-perfection-dose.webp" width="723" height="615" alt="Vanilla Perfection dose" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-first">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd88efee0e997f4efce6_slider-flavour-vanilla-perfection-pack.webp" width="653" height="478" alt="Vanilla Perfection pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                  <div data-inertia-item class="flavour-slide-pack is-second">
+                    <img class="flavour-slide-pack-img" src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68c9bd88efee0e997f4efce6_slider-flavour-vanilla-perfection-pack.webp" width="653" height="478" alt="Vanilla Perfection pack" data-inertia-item-child loading="lazy"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flavour-right-bg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 769 691" fill="none" data-flavour-content-svg class="flavour-right-bg-svg">
+              <path d="M245.813 59.5015C54.1619 152.668 -34.1186 356.234 41.6525 512.101C117.424 667.969 332.042 724.289 523.692 631.123C715.343 537.957 803.624 334.39 727.852 178.522C652.081 22.6546 437.463 -33.6648 245.813 59.5015Z" stroke="currentColor" stroke-width="28"></path>
+            </svg>
+          </div>
+        </div>
+        <!-- Navigation arrows -->
+        <div class="flavour-navigation">
+          <button type="button" data-flavour-slider-left-button class="flavour-slider-button is-left">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0fba88460ab65187e9_icon-arrow-left.svg" loading="lazy" width="20" height="20" alt="Left" class="flavour-slider-button-arrow"/>
+          </button>
+          <button type="button" data-flavour-slider-right-button class="flavour-slider-button is-right">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2de0f2245f238d5eb3226_icon-arrow-right.svg" loading="lazy" width="20" height="20" alt="Right" class="flavour-slider-button-arrow"/>
+          </button>
+        </div>
+        <!-- Center: Flavour name + Buy now (synced slider) -->
+        <div class="flavour-center">
+          <div data-flavour-content-slider class="flavour-content-swiper">
+            <div class="flavour-content-swiper-wrapper">
+              <div class="flavour-content-slide" data-flavour-content-slide>
+                <div class="flavour-content-slide-inner">
+                  <div class="flavour-content-slide-header">
+                    <h3 class="flavour-content-slider-title">Strawberry<br/>Perfection</h3>
+                    <p class="flavour-content-slider-subline">Chunky Flavour®</p>
+                  </div>
+                  <a href="https://morenutrition.co.uk/products/chunky-flavour" target="_blank" class="button">
+                    <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                    <div class="button-bg"><div class="button-text">Buy now</div></div>
+                    <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                  </a>
+                </div>
+              </div>
+              <div class="flavour-content-slide" data-flavour-content-slide>
+                <div class="flavour-content-slide-inner">
+                  <div class="flavour-content-slide-header">
+                    <h3 class="flavour-content-slider-title">Fudge<br/>Brownie</h3>
+                    <p class="flavour-content-slider-subline">Chunky Flavour®</p>
+                  </div>
+                  <a href="https://morenutrition.co.uk/products/chunky-flavour?variant=51094746005668" target="_blank" class="button">
+                    <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                    <div class="button-bg"><div class="button-text">Buy now</div></div>
+                    <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                  </a>
+                </div>
+              </div>
+              <div class="flavour-content-slide" data-flavour-content-slide>
+                <div class="flavour-content-slide-inner">
+                  <div class="flavour-content-slide-header">
+                    <h3 class="flavour-content-slider-title">Vanilla Choc<br/>Chip Cookie</h3>
+                    <p class="flavour-content-slider-subline">Chunky Flavour®</p>
+                  </div>
+                  <a href="https://morenutrition.co.uk/products/chunky-flavour?variant=51094747578532" target="_blank" class="button">
+                    <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                    <div class="button-bg"><div class="button-text">Buy now</div></div>
+                    <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                  </a>
+                </div>
+              </div>
+              <div class="flavour-content-slide" data-flavour-content-slide>
+                <div class="flavour-content-slide-inner">
+                  <div class="flavour-content-slide-header">
+                    <h3 class="flavour-content-slider-title">Salted<br/>Caramel</h3>
+                    <p class="flavour-content-slider-subline">Chunky Flavour®</p>
+                  </div>
+                  <a href="https://morenutrition.co.uk/products/chunky-flavour?variant=51094765076644" target="_blank" class="button">
+                    <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                    <div class="button-bg"><div class="button-text">Buy now</div></div>
+                    <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                  </a>
+                </div>
+              </div>
+              <div class="flavour-content-slide" data-flavour-content-slide>
+                <div class="flavour-content-slide-inner">
+                  <div class="flavour-content-slide-header">
+                    <h3 class="flavour-content-slider-title">Vanilla<br/>Perfection</h3>
+                    <p class="flavour-content-slider-subline">Chunky Flavour®</p>
+                  </div>
+                  <a href="https://morenutrition.co.uk/products/chunky-flavour?variant=51094761996452" target="_blank" class="button">
+                    <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                    <div class="button-bg"><div class="button-text">Buy now</div></div>
+                    <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg"></div></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Payment Section -->
+  <div data-inertia class="payment-section">
+    <div class="payment-container">
+      <div class="grid-layout">
+        <div class="payment-wrapper">
+          <div class="payment-signature-days is-desktop">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2211dbd022ef87bf8047a_payment_3-5-days-delivery.svg" loading="lazy" width="269" height="150" alt="3-5 days delivery" class="payment-signature-days-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2211dbd022ef87bf8047a_payment_3-5-days-delivery.svg" loading="lazy" width="269" height="150" alt="3-5 days delivery" class="payment-signature-days-img is-wiggle"/>
+          </div>
+          <h2 class="insider-heading">Don't just crave It.<br/><span class="light-green-span">Get It.</span></h2>
+          <div class="payment-methods-inner">
+            <div data-payment class="pament-methods">
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _1">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15e9b7e50000f8cad0_Layer_1%20(5).svg" loading="lazy" alt="Amex" class="payment-method-img is-amex"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _2">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b1554cf5d3d8dbbeb01_Group%20102.svg" loading="lazy" alt="Mastercard" class="payment-method-img is-mastercard"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _3">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15a9a38cc10d995594_Group%2096.svg" loading="lazy" alt="PayPal" class="payment-method-img is-paypal"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _4">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689734d5c258f310eceeeb26_Group%2097.svg" loading="lazy" alt="Apple Pay" class="payment-method-img is-apple-pay"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _5">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b15baf850f5dbcaba37_Group%20106.svg" loading="lazy" alt="Google Pay" class="payment-method-img is-google-pay"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _6">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689b2b2738c618add8d9334b_Group%20104.svg" loading="lazy" alt="Visa" class="payment-method-img is-visa"/>
+                </div>
+              </div>
+              <div data-inertia-item class="payment-method-item-outer">
+                <div data-payment-item data-inertia-item-child class="payment-method-item _7">
+                  <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689bad624fa04dfe23225ad3_Klarna_Payment_Badge%201.svg" loading="lazy" alt="Klarna" class="payment-method-img"/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="payment-signature">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2256a5ce0c9ca5c1aa015_payment_free-shipping.svg" loading="lazy" width="300" height="96" alt="Free shipping" class="payment-signature-img"/>
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2256a5ce0c9ca5c1aa015_payment_free-shipping.svg" loading="lazy" width="300" height="96" alt="Free shipping" class="payment-signature-img is-wiggle"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bridge">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1440 362" data-fill-line class="footer-line">
+        <path stroke="currentColor" stroke-width="40" d="M-18.71 5c-13.946 63.747 87.162 120.514 206.635 115.163 94.068-4.213 234.063-38.055 299.378-54.44C939.856-47.813 622.333 217.95 673.484 297.908c37.655 58.861 225.928-110.975 381.896-110.975 56.25 0 206.21 27.386 293.1 98.412 72.29 59.093 134.66 63.049 158.52 51.416"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-full-height-container">
+      <!-- Left: Product card -->
+      <div class="footer-product">
+        <div class="absolute-background">
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe408_footer_product-bg-top.webp" loading="lazy" width="700" height="700" alt="Product background" srcset="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe408_footer_product-bg-top-p-500.webp 500w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe408_footer_product-bg-top.webp 1400w" sizes="700px" class="footer-img top"/>
+          <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe3f1_footer_product-bg.webp" loading="lazy" width="700" height="700" alt="Product background" srcset="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe3f1_footer_product-bg-p-500.webp 500w, https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68b2fe215f8a5cce19bfe3f1_footer_product-bg.webp 1400w" sizes="700px" class="footer-img"/>
+        </div>
+        <div class="footer-product-text-inner">
+          <h3 class="footer-product-heading">Matcha<br/>meets<br/>Protein</h3>
+          <div aria-hidden="true" class="button is-light">
+            <div class="button-cycle is-first"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg light-bg"></div></div>
+            <div class="button-bg light-bg"><div class="button-text dark-font">Buy now</div></div>
+            <div class="button-cycle is-second"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 10" width="100%" class="button-arrow"><path fill="currentColor" fill-rule="evenodd" d="M0 1.827 1.71 0H10v8.22L8.11 10V5.93c0-.992.009-1.89.03-2.695l-6.642 6.58-1.316-1.44 6.641-6.58c-.787.022-1.67.032-2.647.032H0Z" clip-rule="evenodd"></path></svg><div class="button-cycle-bg light-bg"></div></div>
+          </div>
+        </div>
+        <a aria-label="Buy now" href="https://morenutrition.co.uk/products/more-protein-iced-matcha-latte" target="_blank" class="footer-product-link"></a>
+      </div>
+      <!-- Right: Content -->
+      <div class="footer-content">
+        <div class="footer-fact-wrapper">
+          <a href="https://morenutrition.co.uk/collections/all-products-uk" target="_blank" class="footer-info is-first">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9448e952a9e6c0aeb_Alle-Produkte_f1ba7a0d-4d19-4202-af26-db495d4d8559_100x100%201.svg" loading="lazy" width="57" height="70" alt="Shop all" class="footer-info-img is-first"/>
+            <div class="footer-info-text">shop all<br/>Products</div>
+          </a>
+          <a href="https://morenutrition.co.uk/collections/samples-and-singlepacks-uk" target="_blank" class="footer-info is-second">
+            <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/689754d9d94ba5b480581df7_Group%2084.svg" loading="lazy" width="58" height="49" alt="Samples" class="footer-info-img is-second"/>
+            <div class="footer-info-text">samples <br/>&amp; Singles</div>
+          </a>
+        </div>
+        <div class="footer-content-wrapper">
+          <h4 class="footer-heading"><span data-highlight-text class="heading-line">More Nutrition</span> <br/>Iced Matcha Latte</h4>
+          <div class="footer-shipping-wrapper">
+            <a href="https://service.morenutrition.de/hc/en-us/sections/15534294234257-Shipping-and-Delivery" target="_blank" class="shipping-link">
+              <div class="shipping-link-wrap"><div class="shipping-link-text">Shipping and Delivery</div></div>
+            </a>
+            <a href="https://service.morenutrition.de/hc/en-us/sections/15534281016465-Return-Refund" target="_blank" class="shipping-link">
+              <div class="shipping-link-wrap"><div class="shipping-link-text">Returns and Exchanges</div></div>
+            </a>
+          </div>
+          <div class="footer-social-media-wrap">
+            <a href="https://www.instagram.com/morenutrition.de/" target="_blank" class="social-media-link">
+              <div class="social-media-circle is-white"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651ae6f6e0e5669c9d465_instagram.svg" loading="lazy" width="24" height="24" alt="Instagram" class="social-media-icon"/></div>
+            </a>
+            <a href="https://www.tiktok.com/@morenutrition.de?lang=de-DE" target="_blank" class="social-media-link">
+              <div class="social-media-circle is-white"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/688651aeea8f52f9e4d418f2_tiktok.svg" loading="lazy" width="24" height="24" alt="TikTok" class="social-media-icon"/></div>
+            </a>
+            <a href="https://www.youtube.com/@more_nutrition" target="_blank" class="social-media-link">
+              <div class="social-media-circle is-white"><img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/68d40d4b080c864fb3ec6e0f_youtube-svgrepo-com.svg" loading="lazy" width="24" height="24" alt="YouTube" class="social-media-icon"/></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Footer logo -->
+      <img src="https://cdn.prod.website-files.com/686c09a33211842a0ac0183d/687ea845b6162b993ddd0020_Group%201%20(1).svg" loading="lazy" alt="More Nutrition Logo" class="footer-logo desktop"/>
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <div class="footer-bottom-text">&copy; More Nutrition. All Rights Reserved.</div>
+        <button type="button" class="footer-credits-toggle" data-credits-toggle>
+          <span class="footer-credits-toggle-wrap"><span class="footer-credits-toggle-text">Site Credits</span></span>
+        </button>
+        <div class="footer-credits" data-credits-panel style="display:none;">
+          <div class="footer-credits-inner">
+            <div class="footer-credits-detail">
+              <div class="footer-credits-text">3D Design</div>
+              <a href="https://www.tobias-anderssohn.com/en/" target="_blank" class="credits-link"><div class="credits-link-wrap"><div class="credits-link-text">Tobias Anderssohn</div></div></a>
+            </div>
+            <div class="footer-credits-detail">
+              <div class="footer-credits-text">Web Design</div>
+              <a href="https://www.somefolk.co/" target="_blank" class="credits-link"><div class="credits-link-wrap"><div class="credits-link-text">Somefolk&reg;</div></div></a>
+            </div>
+            <div class="footer-credits-detail">
+              <div class="footer-credits-text">Web Development</div>
+              <a href="https://www.futurethree.studio/" target="_blank" class="credits-link"><div class="credits-link-wrap"><div class="credits-link-text">Future Three&reg;</div></div></a>
+            </div>
+            <div class="footer-credits-detail">
+              <div class="footer-credits-text">Web Animation</div>
+              <a href="https://www.eduardbodak.com/" target="_blank" class="credits-link"><div class="credits-link-wrap"><div class="credits-link-text">Eduard Bodak</div></div></a>
+            </div>
+            <div class="footer-credits-detail">
+              <div class="footer-credits-text">Copywriting</div>
+              <a href="https://psychologie.biz/" target="_blank" class="credits-link"><div class="credits-link-wrap"><div class="credits-link-text">Psychologie.Biz</div></div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Register GSAP plugins
+    gsap.registerPlugin(ScrollTrigger);
+
+    // ===== Inertia hover interaction on fact circles (from original site) =====
+    // Original uses GSAP InertiaPlugin. We simulate the same physics:
+    // mouse velocity → push circle with translation + rotation → spring back to 0
+    (function() {
+      const clampVel = (v) => Math.max(-1080, Math.min(1080, v));
+      const clampRot = (v) => Math.max(-60, Math.min(60, v));
+
+      document.querySelectorAll('[data-inertia]').forEach(container => {
+        let lastX = 0, lastY = 0, velX = 0, velY = 0, raf = null;
+
+        container.addEventListener('mousemove', e => {
+          if (!raf) {
+            raf = requestAnimationFrame(() => {
+              velX = e.clientX - lastX;
+              velY = e.clientY - lastY;
+              lastX = e.clientX;
+              lastY = e.clientY;
+              raf = null;
+            });
+          }
+        });
+
+        container.querySelectorAll('[data-inertia-item]').forEach(item => {
+          item.addEventListener('mouseenter', e => {
+            const child = item.querySelector('[data-inertia-item-child]');
+            if (!child) return;
+
+            const rect = child.getBoundingClientRect();
+            const cx = rect.left + rect.width / 2;
+            const cy = rect.top + rect.height / 2;
+            const dx = e.clientX - cx;
+            const dy = e.clientY - cy;
+            const cross = (dx * velY - dy * velX) / (Math.hypot(dx, dy) || 1);
+
+            const pushX = clampVel(30 * velX);
+            const pushY = clampVel(30 * velY);
+            const pushRot = clampRot(15 * cross);
+
+            // Apply velocity-based push, then spring back to 0
+            gsap.fromTo(child,
+              { x: pushX * 0.08, y: pushY * 0.08, rotation: pushRot * 0.15 },
+              {
+                x: 0, y: 0, rotation: 0,
+                duration: 1.2,
+                ease: 'elastic.out(1, 0.3)'
+              }
+            );
+          });
+        });
+      });
+    })();
+
+    // ===== Canvas Sequence Animation (from original site) =====
+    (function() {
+      const canvas = document.querySelector('[data-load-stage-canvas]');
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d', { alpha: true });
+      const dpr = Math.max(1, window.devicePixelRatio || 1);
+      const imgPath = canvas.dataset.loadStageCanvasImgPath;
+
+      // 23 frames: seq_1_0.webp to seq_1_22.webp (from original code)
+      const urls = Array.from({ length: 23 }, (_, i) => `${imgPath}seq_1_${i}.webp`);
+      const frames = [];
+      let ready = false;
+
+      async function loadImage(url) {
+        const resp = await fetch(url);
+        const blob = await resp.blob();
+        if (window.createImageBitmap) {
+          return await createImageBitmap(blob, { imageOrientation: 'from-image' });
+        } else {
+          const img = new Image();
+          img.src = URL.createObjectURL(blob);
+          if (img.decode) await img.decode();
+          return img;
+        }
+      }
+
+      function drawFrame(index) {
+        if (!ready) return;
+        const img = frames[index];
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const iw = img.width, ih = img.height;
+        const scale = Math.min(canvas.width / iw, canvas.height / ih) / dpr;
+        const w = iw * scale, h = ih * scale;
+        const x = (canvas.width / dpr - w) / 2;
+        const y = (canvas.height / dpr - h) / 2;
+        ctx.drawImage(img, x, y, w, h);
+      }
+
+      // Load all frames then start animation
+      (async function() {
+        const first = await loadImage(urls[0]);
+        canvas.width = first.width * dpr;
+        canvas.height = first.height * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+        const rest = await Promise.all(urls.slice(1).map(loadImage));
+        frames.push(first, ...rest);
+        ready = true;
+        drawFrame(0);
+
+        // Animate: sequence plays back and forth (yoyo), same as original
+        const frameObj = { frame: 0 };
+
+        // Entrance animation: product slides in with rotation
+        gsap.set(canvas, {
+          yPercent: 100, xPercent: -50, rotate: -35, scale: 0.9,
+          opacity: 0, transformPerspective: 1000, transformOrigin: '60% 50%'
+        });
+
+        const entranceTl = gsap.timeline();
+        entranceTl.to(canvas, {
+          yPercent: -1, xPercent: 0, rotate: -11, scale: 1,
+          opacity: 1, duration: 0.85, delay: 0.3,
+          ease: 'power2.out'
+        });
+        entranceTl.to(frameObj, {
+          frame: 22, duration: 0.85, ease: 'sine.out', snap: 'frame',
+          onUpdate: () => drawFrame(Math.round(frameObj.frame))
+        }, '<-=0.005');
+
+        // After entrance, start continuous yoyo animation
+        entranceTl.call(() => {
+          const seqAnim = gsap.fromTo(frameObj, { frame: 22 }, {
+            frame: 0, snap: 'frame', ease: 'sine.inOut',
+            yoyo: true, repeat: -1, duration: 1.38,
+            onUpdate: () => drawFrame(Math.round(frameObj.frame))
+          });
+
+          const floatAnim = gsap.fromTo(canvas,
+            { yPercent: -1, rotate: -11, rotateX: 0, rotateY: 0 },
+            {
+              yPercent: 2, rotate: -13, rotateX: -4, rotateY: -5,
+              duration: 1.38, ease: 'sine.inOut', repeat: -1, yoyo: true
+            }
+          );
+
+          // Pause/resume based on visibility
+          ScrollTrigger.create({
+            trigger: canvas.closest('.stage-visual'),
+            start: 'top bottom',
+            end: 'bottom top',
+            onEnter: () => { seqAnim.play(); floatAnim.play(); },
+            onEnterBack: () => { seqAnim.play(); floatAnim.play(); },
+            onLeave: () => { seqAnim.pause(); floatAnim.pause(); },
+            onLeaveBack: () => { seqAnim.pause(); floatAnim.pause(); }
+          });
+        });
+      })();
+    })();
+
+    // ===== Entrance animations for other elements =====
+    (function() {
+      // Deco elements entrance
+      const decoText = document.querySelector('.stage-deco-text-wrap');
+      const decoArrow = document.querySelector('.stage-deco-arrow-wrap');
+      if (decoText) {
+        gsap.set(decoText, { opacity: 0, rotate: -18, scale: 1.25, yPercent: -65, xPercent: -25 });
+        gsap.to(decoText, {
+          yPercent: 0, xPercent: 0, opacity: 1, scale: 1, rotate: -7,
+          duration: 0.45, delay: 0.8
+        });
+      }
+      if (decoArrow) {
+        gsap.set(decoArrow, { opacity: 0, rotate: -6, scale: 1.25, yPercent: 0, xPercent: -125 });
+        gsap.to(decoArrow, {
+          yPercent: 10, opacity: 1, rotate: 9, scale: 1, xPercent: 0,
+          duration: 0.45, delay: 0.85
+        });
+      }
+
+      // Fact circles entrance
+      const facts = document.querySelectorAll('.stage-fact');
+      if (facts.length) {
+        gsap.set(facts, { opacity: 0, y: 100, x: -40, rotate: -35, scale: 0.6 });
+        gsap.to(facts, {
+          opacity: 1, y: 0, x: 0, rotate: 0, scale: 1,
+          ease: 'back.out(1.7)', duration: 0.8,
+          stagger: -0.048, delay: 0.6
+        });
+      }
+
+      // SVG ellipse draw animation
+      const svgPath = document.querySelector('.stage-bg-svg path');
+      if (svgPath) {
+        const length = svgPath.getTotalLength();
+        svgPath.style.strokeDasharray = length;
+        svgPath.style.strokeDashoffset = length;
+        gsap.to(svgPath, {
+          strokeDashoffset: 0, duration: 1.4,
+          ease: 'power2.out', delay: 0.5
+        });
+      }
+
+      // Hero heading entrance
+      const heading = document.querySelector('.hero-heading');
+      if (heading) {
+        gsap.set(heading, { opacity: 0, yPercent: 60, scale: 0.6 });
+        gsap.to(heading, {
+          opacity: 1, yPercent: 0, scale: 1,
+          ease: 'back.out(1.2)', duration: 0.95, delay: 0.7
+        });
+      }
+
+      // Paragraph entrance
+      const paragraph = document.querySelector('.paragraph.is-stage-paragraph');
+      if (paragraph) {
+        gsap.set(paragraph, { opacity: 0, yPercent: 125 });
+        gsap.to(paragraph, {
+          yPercent: 0, opacity: 1, duration: 0.5, delay: 1.0
+        });
+      }
+
+      // Underline entrance
+      const underline = document.querySelector('.stage-subline-wrap');
+      if (underline) {
+        gsap.set(underline, { opacity: 0, yPercent: 45 });
+        gsap.to(underline, {
+          yPercent: 0, opacity: 1, duration: 0.45, delay: 1.2
+        });
+      }
+
+      // CTA button entrance
+      const cta = document.querySelector('.stage-cta');
+      if (cta) {
+        gsap.set(cta, { opacity: 0, y: 60 });
+        gsap.to(cta, { y: 0, opacity: 1, duration: 0.5, delay: 0.4 });
+      }
+
+      // Nav entrance
+      const navbar = document.querySelector('.navbar');
+      if (navbar) {
+        gsap.set(navbar, { opacity: 0 });
+        gsap.to(navbar, { opacity: 1, duration: 0.25, delay: 0.5 });
+      }
+    })();
+
+    // ===== Marquee scroll animation (from original site) =====
+    // Text slides along the curved SVG path as user scrolls
+    (function() {
+      document.querySelectorAll('[data-marquee]').forEach(marquee => {
+        const textPath = marquee.querySelector('[data-marquee-svg] textPath');
+        if (!textPath) return;
+
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: marquee,
+            start: 'top bottom',
+            end: 'bottom top',
+            scrub: true
+          }
+        }).fromTo(textPath,
+          { attr: { startOffset: '-30%' } },
+          { attr: { startOffset: '-60%' }, ease: 'none', duration: 1 }
+        );
+      });
+    })();
+
+    // ===== Video autoplay/pause on scroll + sound toggle =====
+    (function() {
+      document.querySelectorAll('[data-video]').forEach(video => {
+        const btn = video.parentElement.parentElement.querySelector('[data-video-button]');
+        video.pause();
+
+        ScrollTrigger.create({
+          trigger: video,
+          start: 'top bottom',
+          end: 'bottom top',
+          onEnter: () => video.play(),
+          onEnterBack: () => video.play(),
+          onLeave: () => video.pause(),
+          onLeaveBack: () => video.pause()
+        });
+
+        if (btn) {
+          btn.addEventListener('click', e => {
+            const wasMuted = video.muted;
+            video.muted = !wasMuted;
+            e.currentTarget.classList.toggle('is-clicked', wasMuted);
+            if (wasMuted) {
+              const p = video.play();
+              if (p && typeof p.catch === 'function') p.catch(() => {});
+            }
+          });
+        }
+      });
+    })();
+
+    // ===== Testimonial parallax on scroll =====
+    (function() {
+      document.querySelectorAll('[data-testimonial-parallax]').forEach(container => {
+        const items = container.querySelectorAll('[data-testimonial-parallax-item]');
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: container,
+            start: 'top bottom',
+            end: 'bottom top',
+            scrub: true
+          }
+        }).to(items, { yPercent: 5, ease: 'none', duration: 1 });
+      });
+    })();
+
+    // ===== Insider section scroll-triggered entrance =====
+    (function() {
+      const section = document.querySelector('.insider-section');
+      if (!section) return;
+
+      const heading = section.querySelector('.insider-heading');
+      const subheading = section.querySelector('.insider-subheading');
+      const paragraph = section.querySelector('.insider-text-inner .paragraph');
+      const cta = section.querySelector('.insider-cta');
+      const cards = section.querySelectorAll('.testimonial-inner-wrap');
+
+      if (heading) {
+        gsap.set(heading, { opacity: 0, yPercent: 40 });
+        gsap.to(heading, {
+          opacity: 1, yPercent: 0, duration: 0.8, ease: 'power2.out',
+          scrollTrigger: { trigger: heading, start: 'top 85%', once: true }
+        });
+      }
+
+      cards.forEach((card, i) => {
+        gsap.set(card, { opacity: 0, y: 80, rotate: card.style.rotate || 0 });
+        gsap.to(card, {
+          opacity: 1, y: 0, duration: 0.7, delay: i * 0.1,
+          ease: 'back.out(1.2)',
+          scrollTrigger: { trigger: section.querySelector('.testimonial-wrapper'), start: 'top 80%', once: true }
+        });
+      });
+
+      if (subheading) {
+        gsap.set(subheading, { opacity: 0, yPercent: 60 });
+        gsap.to(subheading, {
+          opacity: 1, yPercent: 0, duration: 0.6, ease: 'power2.out',
+          scrollTrigger: { trigger: subheading, start: 'top 85%', once: true }
+        });
+      }
+
+      if (paragraph) {
+        gsap.set(paragraph, { opacity: 0, yPercent: 40 });
+        gsap.to(paragraph, {
+          opacity: 1, yPercent: 0, duration: 0.5,
+          scrollTrigger: { trigger: paragraph, start: 'top 90%', once: true }
+        });
+      }
+
+      if (cta) {
+        gsap.set(cta, { opacity: 0, y: 30 });
+        gsap.to(cta, {
+          opacity: 1, y: 0, duration: 0.5,
+          scrollTrigger: { trigger: cta, start: 'top 90%', once: true }
+        });
+      }
+    })();
+
+    // ===== Sequence Section: 200-frame scroll-driven animation =====
+    (function() {
+      const section = document.querySelector('[data-sequence]');
+      if (!section) return;
+
+      const trigger = section.querySelector('[data-sequence-trigger]');
+      const canvas = section.querySelector('[data-sequence-canvas]');
+      if (!canvas || !trigger) return;
+
+      const ctx = canvas.getContext('2d');
+      const state = { frame: 0 };
+      const imgPath = canvas.dataset.sequenceCanvasImgPath;
+      const images = new Array(200);
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+      // Preload all 200 frames
+      for (let i = 0; i <= 199; i++) {
+        const img = new Image();
+        img.src = `${imgPath}seq_0_${i}.webp`;
+        images[i] = img;
+      }
+
+      // Resize canvas to fill viewport
+      function resizeCanvas() {
+        canvas.width = window.innerWidth * dpr;
+        canvas.height = window.innerHeight * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+
+      function drawFrame() {
+        ctx.clearRect(0, 0, canvas.width / dpr, canvas.height / dpr);
+        const idx = Math.round(state.frame);
+        const img = images[idx];
+        if (!img || !img.complete || img.naturalWidth === 0) return;
+
+        const ratio = img.naturalWidth / img.naturalHeight;
+        const ch = canvas.height / dpr;
+        const cw = canvas.width / dpr;
+        const h = ch;
+        const w = ratio * h;
+        const x = Math.round((cw - w) / 2);
+        ctx.drawImage(img, x, 0, Math.round(w), Math.round(h));
+      }
+
+      // Scroll-driven frame animation
+      gsap.to(state, {
+        frame: 199,
+        snap: 'frame',
+        ease: 'none',
+        onUpdate: drawFrame,
+        scrollTrigger: {
+          trigger: trigger,
+          start: 'top 20%',
+          end: 'bottom bottom',
+          scrub: 0.7
+        }
+      });
+
+      // Canvas scale-down at end of scroll
+      gsap.set(canvas, { transformOrigin: 'center bottom' });
+      gsap.to(canvas, {
+        keyframes: {
+          '75%': { scale: 1 },
+          '100%': { scale: 0.85, yPercent: 3.5 }
+        },
+        duration: 1,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: trigger,
+          start: 'top top',
+          end: 'bottom bottom',
+          scrub: true
+        }
+      });
+
+      // Cards scroll animation
+      const cards = section.querySelectorAll('[data-sequence-card]');
+      const smileys = section.querySelectorAll('[data-sequence-smiley]');
+      const svgPaths = section.querySelectorAll('[data-sequence-svg] path');
+      const title = section.querySelector('[data-sequence-title]');
+      const finalSigs = section.querySelectorAll('[data-sequence-final-signature]');
+      const cookieFirst = section.querySelector('[data-sequence-cookie-first]');
+      const cookieSecond = section.querySelector('[data-sequence-cookie-second]');
+      const strawberryFirst = section.querySelector('[data-sequence-strawberry-first]');
+      const strawberrySecond = section.querySelector('[data-sequence-strawberry-second]');
+      const innerSig = section.querySelector('[data-sequence-signature]');
+
+      // Initial positions
+      const vh = window.innerHeight;
+      gsap.set(cards, {
+        yPercent: 50,
+        y: 0.6 * vh,
+        xPercent: (i, el) => el.hasAttribute('data-sequence-card-left') ? 4 : -4
+      });
+      if (title) gsap.set(title, { y: vh, scale: 0.7 });
+      if (finalSigs.length) gsap.set(finalSigs, { y: vh });
+      if (cookieFirst) gsap.set(cookieFirst, { y: vh, x: 64 });
+      if (cookieSecond) gsap.set(cookieSecond, { y: vh, x: 96 });
+      if (strawberryFirst) gsap.set(strawberryFirst, { y: vh, x: -64 });
+      if (strawberrySecond) gsap.set(strawberrySecond, { y: vh, x: -96 });
+      if (innerSig) gsap.set(innerSig, { opacity: 0 });
+
+      // Main scroll timeline
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: trigger,
+          start: 'top 60%',
+          end: 'bottom bottom+=25%',
+          scrub: true
+        }
+      });
+
+      // Cards fly through
+      tl.to(cards, {
+        yPercent: -50,
+        y: -0.6 * vh,
+        xPercent: 0,
+        duration: 1,
+        rotate: (i, el) => el.hasAttribute('data-sequence-card-left')
+          ? gsap.utils.random(-5, -2)
+          : gsap.utils.random(2, 5),
+        stagger: 0.85,
+        ease: 'power2.inOut'
+      }, 'step');
+
+      // Smileys rotate
+      tl.to(smileys, {
+        rotate: (i, el) => el.hasAttribute('data-sequence-smiley-left')
+          ? gsap.utils.random(8, 13)
+          : gsap.utils.random(-13, -8),
+        stagger: 0.85,
+        duration: 1
+      }, 'step');
+
+      // Inner signature fade
+      if (innerSig) {
+        tl.to(innerSig, {
+          keyframes: {
+            '10%': { opacity: 1 },
+            '70%': { opacity: 1 },
+            '90%': { opacity: 0 }
+          },
+          duration: 1.5,
+          ease: 'none'
+        }, 'step+=0.75');
+      }
+
+      // SVG line draw animation
+      svgPaths.forEach((path, i) => {
+        const length = path.getTotalLength();
+        path.style.strokeDasharray = length;
+        path.style.strokeDashoffset = length;
+
+        tl.fromTo(path,
+          { strokeDashoffset: length },
+          { strokeDashoffset: -length, duration: 1, ease: 'none' },
+          `step+=${i * 1.35 + 0.3}`
+        );
+      });
+
+      // Title and final elements enter
+      if (title) {
+        tl.to(title, {
+          y: 0, scale: 0.9, duration: 1.5, ease: 'power2.out'
+        }, '>+=0.2');
+      }
+
+      if (finalSigs.length) {
+        tl.to(finalSigs, { y: 0, duration: 1, ease: 'power1.inOut' }, '<');
+      }
+
+      if (cookieFirst) tl.to(cookieFirst, { y: 0, x: 0, duration: 1.25, ease: 'power1.inOut' }, '<');
+      if (strawberryFirst) tl.to(strawberryFirst, { y: 0, x: 0, duration: 1.25, ease: 'power1.inOut' }, '<');
+      if (cookieSecond) tl.to(cookieSecond, { y: 0, x: 0, duration: 1.5, ease: 'power1.inOut' }, '<');
+      if (strawberrySecond) tl.to(strawberrySecond, { y: 0, x: 0, duration: 1.5, ease: 'power1.inOut' }, '<');
+    })();
+
+    // ===== Benefits Section animations =====
+    (function() {
+      // Smiley bounce entrance
+      document.querySelectorAll('[data-smiley]').forEach(el => {
+        gsap.fromTo(el,
+          { opacity: 0, scale: 0.5, rotate: 80, transformOrigin: 'left bottom' },
+          {
+            opacity: 1, scale: 1, rotate: 0,
+            ease: 'back.out(1.7)', duration: 0.95,
+            scrollTrigger: { trigger: el, start: 'top 95%', once: true }
+          }
+        );
+      });
+
+      // Benefit table lines expand from left
+      document.querySelectorAll('[data-benefit-table]').forEach(table => {
+        const lines = table.querySelectorAll('[data-benefit-table-line]');
+        gsap.set(lines, { transformOrigin: 'left center', scaleX: 0 });
+        gsap.timeline({
+          scrollTrigger: { trigger: table, start: 'top 90%', once: true }
+        }).to(lines, { scaleX: 1, stagger: 0.076, duration: 0.85 });
+      });
+
+      // Check marks bounce
+      document.querySelectorAll('[data-benefit-table-check]').forEach(check => {
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: check,
+            start: 'top 49%',
+            end: 'bottom 51%',
+            toggleActions: 'restart none restart none'
+          }
+        }).to(check, {
+          keyframes: {
+            '0%': { scaleX: 1, yPercent: 0, rotate: 0 },
+            '20%': { scaleX: 0.65, yPercent: 25, rotate: 25, ease: 'power2.in' },
+            '100%': { scaleX: 1, yPercent: 0, rotate: 0, ease: 'elastic.out(1,0.4)' }
+          },
+          duration: 0.85
+        });
+      });
+
+      // SVG fill line draw
+      document.querySelectorAll('[data-fill-line]').forEach(svg => {
+        const path = svg.querySelector('path');
+        if (!path) return;
+        const length = path.getTotalLength();
+        path.style.strokeDasharray = length;
+        path.style.strokeDashoffset = length;
+        const isFooterLine = svg.classList.contains('footer-line');
+        gsap.timeline({
+          scrollTrigger: {
+            trigger: svg,
+            start: isFooterLine ? 'top 95%' : 'top 70%',
+            once: true
+          }
+        }).to(path, {
+          strokeDashoffset: 0,
+          ease: 'none',
+          duration: isFooterLine ? 1.5 : 0.75
+        });
+      });
+
+      // Highlight text entrance
+      document.querySelectorAll('[data-highlight-text]').forEach(el => {
+        gsap.set(el, { opacity: 0 });
+        gsap.timeline({
+          scrollTrigger: { trigger: el, start: 'top 96%', once: true }
+        }).to(el, {
+          opacity: 1, color: 'var(--light-green)',
+          duration: 0.6, ease: 'power2.out'
+        });
+      });
+    })();
+
+    // ===== Testimonial Section: Background Parallax =====
+    (function() {
+      const wrapper = document.querySelector('.testimonial-section [data-testimonial-parallax]');
+      if (!wrapper) return;
+      const imgs = wrapper.querySelectorAll('[data-testimonial-parallax-img]');
+      if (!imgs.length) return;
+
+      gsap.to(imgs, {
+        yPercent: -4,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: '.testimonial-section',
+          start: 'top bottom',
+          end: 'bottom top',
+          scrub: true
+        }
+      });
+    })();
+
+    // ===== Testimonial Section: Review Slider =====
+    (function() {
+      const slider = document.querySelector('[data-slider]');
+      if (!slider) return;
+
+      const wraps = slider.querySelectorAll('.testimonial-slider-item-wrap');
+      const cards = slider.querySelectorAll('[data-slider-item-inner]');
+      const leftBtn = document.querySelector('[data-slider-left-button]');
+      const rightBtn = document.querySelector('[data-slider-right-button]');
+      if (!wraps.length) return;
+
+      let current = 1; // Start with second card centered (like original)
+      const total = wraps.length;
+
+      function updateActive() {
+        cards.forEach((card, i) => card.classList.toggle('active', i === current));
+      }
+
+      function getCardScrollLeft(index) {
+        // Calculate the scrollLeft needed to center the given card
+        const wrap = wraps[index];
+        const wrapLeft = wrap.offsetLeft;
+        const wrapWidth = wrap.offsetWidth;
+        const sliderWidth = slider.offsetWidth;
+        return wrapLeft - (sliderWidth / 2) + (wrapWidth / 2);
+      }
+
+      function goTo(index, smooth) {
+        current = Math.max(0, Math.min(index, total - 1));
+        const targetScroll = getCardScrollLeft(current);
+        if (smooth) {
+          gsap.to(slider, {
+            scrollLeft: targetScroll,
+            duration: 0.5,
+            ease: 'power2.out',
+            onUpdate: updateActive
+          });
+        } else {
+          slider.scrollLeft = targetScroll;
+        }
+        updateActive();
+      }
+
+      if (leftBtn) leftBtn.addEventListener('click', () => goTo(current - 1, true));
+      if (rightBtn) rightBtn.addEventListener('click', () => goTo(current + 1, true));
+
+      // Drag to scroll
+      let isDragging = false, startX = 0, dragScrollLeft = 0, hasMoved = false;
+
+      slider.addEventListener('pointerdown', e => {
+        isDragging = true;
+        hasMoved = false;
+        startX = e.clientX;
+        dragScrollLeft = slider.scrollLeft;
+        slider.setPointerCapture(e.pointerId);
+        slider.style.cursor = 'grabbing';
+      });
+
+      slider.addEventListener('pointermove', e => {
+        if (!isDragging) return;
+        const dx = e.clientX - startX;
+        if (Math.abs(dx) > 3) hasMoved = true;
+        slider.scrollLeft = dragScrollLeft - dx;
+      });
+
+      slider.addEventListener('pointerup', e => {
+        if (!isDragging) return;
+        isDragging = false;
+        slider.releasePointerCapture(e.pointerId);
+        slider.style.cursor = '';
+        if (!hasMoved) return;
+
+        // Snap to nearest card center
+        const sliderCenter = slider.scrollLeft + slider.offsetWidth / 2;
+        let closest = 0, minDist = Infinity;
+        wraps.forEach((wrap, i) => {
+          const center = wrap.offsetLeft + wrap.offsetWidth / 2;
+          const dist = Math.abs(center - sliderCenter);
+          if (dist < minDist) { minDist = dist; closest = i; }
+        });
+        goTo(closest, true);
+      });
+
+      // Click on a non-active card to navigate to it
+      wraps.forEach((wrap, i) => {
+        wrap.addEventListener('click', () => {
+          if (i !== current && !hasMoved) goTo(i, true);
+        });
+      });
+
+      // Init: center the second card, mark it active
+      requestAnimationFrame(() => goTo(1, false));
+
+      // Scroll-triggered entrances
+      const heading = document.querySelector('.testimonial-big-heading');
+      const sig = document.querySelector('.testimonial-signature');
+      const sliderHeading = document.querySelector('.testimonial-heading');
+
+      if (heading) {
+        gsap.set(heading, { opacity: 0, yPercent: 30 });
+        gsap.to(heading, {
+          opacity: 1, yPercent: 0, duration: 0.8, ease: 'power2.out',
+          scrollTrigger: { trigger: heading, start: 'top 85%', once: true }
+        });
+      }
+      if (sig) {
+        gsap.set(sig, { opacity: 0, yPercent: 40 });
+        gsap.to(sig, {
+          opacity: 1, yPercent: 0, duration: 0.6, delay: 0.1, ease: 'power2.out',
+          scrollTrigger: { trigger: sig, start: 'top 90%', once: true }
+        });
+      }
+      if (sliderHeading) {
+        gsap.set(sliderHeading, { opacity: 0, yPercent: 40 });
+        gsap.to(sliderHeading, {
+          opacity: 1, yPercent: 0, duration: 0.6, ease: 'power2.out',
+          scrollTrigger: { trigger: sliderHeading, start: 'top 95%', once: true }
+        });
+      }
+    })();
+
+    // ===== Flavour Section: Dual Synced Slider =====
+    (function() {
+      const productSlides = document.querySelectorAll('[data-flavour-slide]');
+      const contentSlides = document.querySelectorAll('[data-flavour-content-slide]');
+      const leftBtn = document.querySelector('[data-flavour-slider-left-button]');
+      const rightBtn = document.querySelector('[data-flavour-slider-right-button]');
+      if (!productSlides.length) return;
+
+      let current = 0;
+      const total = productSlides.length;
+
+      function show(index) {
+        // Hide all
+        productSlides.forEach(s => s.classList.remove('is-active'));
+        contentSlides.forEach(s => s.classList.remove('is-active'));
+        // Show current
+        productSlides[index].classList.add('is-active');
+        contentSlides[index].classList.add('is-active');
+
+        // Animate product entrance
+        const inner = productSlides[index].querySelector('.flavour-slide-inner');
+        if (inner) {
+          const dose = inner.querySelector('.flavour-slide-dose');
+          const pack1 = inner.querySelector('.flavour-slide-pack.is-first');
+          const pack2 = inner.querySelector('.flavour-slide-pack.is-second');
+          if (dose) gsap.fromTo(dose, { opacity: 0, x: 60, rotate: 12 }, { opacity: 1, x: 0, rotate: 0, duration: 0.5, ease: 'power2.out' });
+          if (pack1) gsap.fromTo(pack1, { opacity: 0, x: 80, rotate: -8 }, { opacity: 1, x: 0, rotate: 0, duration: 0.55, delay: 0.05, ease: 'power2.out' });
+          if (pack2) gsap.fromTo(pack2, { opacity: 0, x: 100, rotate: -15 }, { opacity: 1, x: 0, rotate: 0, duration: 0.6, delay: 0.1, ease: 'power2.out' });
+        }
+
+        // Animate content entrance
+        const contentInner = contentSlides[index].querySelector('.flavour-content-slide-inner');
+        if (contentInner) {
+          gsap.fromTo(contentInner, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' });
+        }
+      }
+
+      function goTo(index) {
+        current = ((index % total) + total) % total; // wrap around
+        show(current);
+      }
+
+      if (leftBtn) leftBtn.addEventListener('click', () => goTo(current - 1));
+      if (rightBtn) rightBtn.addEventListener('click', () => goTo(current + 1));
+
+      // Init first slide
+      show(0);
+
+      // Ellipse SVG draw animation
+      const svgPath = document.querySelector('[data-flavour-content-svg] path');
+      if (svgPath) {
+        const length = svgPath.getTotalLength();
+        svgPath.style.strokeDasharray = length;
+        svgPath.style.strokeDashoffset = length;
+        gsap.to(svgPath, {
+          strokeDashoffset: 0, duration: 1.2, ease: 'power2.out',
+          scrollTrigger: { trigger: svgPath, start: 'top 80%', once: true }
+        });
+      }
+    })();
+
+    // ===== Payment Section: Circle entrance animation =====
+    (function() {
+      const items = document.querySelectorAll('[data-payment-item]');
+      if (!items.length) return;
+
+      gsap.set(items, { opacity: 0, y: 80, scale: 0.6 });
+      gsap.to(items, {
+        opacity: 1, y: 0, scale: 1,
+        ease: 'back.out(1.7)', duration: 0.8,
+        stagger: 0.08,
+        scrollTrigger: {
+          trigger: '.payment-methods-inner',
+          start: 'top 85%',
+          once: true
+        }
+      });
+    })();
+
+    // ===== Footer: Site Credits toggle =====
+    (function() {
+      const toggle = document.querySelector('[data-credits-toggle]');
+      const panel = document.querySelector('[data-credits-panel]');
+      if (!toggle || !panel) return;
+
+      toggle.addEventListener('click', () => {
+        const isOpen = panel.style.display !== 'none';
+        panel.style.display = isOpen ? 'none' : 'block';
+      });
+    })();
+
+  </script>
+</body>
+</html>
